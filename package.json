@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ameygoes.github.io/",
-  "name": "developerfolio",
+  "homepage": "https://ameygoes.github.io",
+  "name": "AmeyPortFolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
