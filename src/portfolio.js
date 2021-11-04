@@ -211,8 +211,7 @@ const workExperiences = {
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
       date: "Jan 2020 - Oct 2020",
-      desc: "Was part of the Data Analytics Team, Supported and Enhanced the Live Project for the Client which included technologies and platforms such as Python, Dataflow, GCP, Shell Scripts, Airflow.",
-      desc: "Responsible for - ",
+      desc: "Was part of the Data Analytics Team, Supported and Enhanced the Live Project for the Client which included technologies and platforms such as Python, Dataflow, GCP, Shell Scripts, Airflow. Responsible for - ",
       descBullets: [
         "Built a Data Validation Module from scratch to Verify inflow, intermediate flow and out-flow of data.",
         "Enhanced Email Notification Module to send out Mails more efficiently.",
@@ -225,8 +224,7 @@ const workExperiences = {
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
       date: "Jun 2019 – Dec 2019",
-      desc: "Worked in a 5-member team on round-robin for technologies like Java - microservice-based architecture, Node, Restful APIs, Security Tokens, MySQL, DevOps to get to know all technologies",
-      desc: "Responsible for - ",
+      desc: "Worked in a 5-member team on round-robin for technologies like Java - microservice-based architecture, Node, Restful APIs, Security Tokens, MySQL, DevOps to get to know all technologies Responsible for - ",
       descBullets: [
         "Designing Login Page and routing APIs to various other services.",
         "Encryption and Decryption of PII data and passwords.",
