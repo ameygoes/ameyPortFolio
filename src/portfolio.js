@@ -14,7 +14,7 @@ const greeting = {
   username: "Amey Bhilegaonkar",
   title: "Hey, I'm Amey!",
   subTitle: emoji(
-    "A passionate FULL STACK SOFTWARE DEVELOPER, self-taught DATA SCIENTIST 👨‍💻 and, ML Practisioner from India. My passion for software lies with dreaming up ideas and making them come true with elegant code. I take great care in the Experience, Architecture, and Code Quality of the things I build."
+    "Currently, pursuing my Masters of Computer Science with speciliaztion as Data Science at Arizona State University. I am a Full Stack developer, with professional experience of 3+ years as a Data Engineer and a Data Analyst👨‍💻. I take great care in the Experience, Architecture, and Code Quality of the things I build."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1nVn9AYIpYeiybSsWy9oqEnz8geAiQOoR/view?usp=drivesdk", // Set to empty to hide the button
@@ -42,7 +42,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH",
+  subTitle: "A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH",
   skills: [
     emoji(
       "⚡ Develop highly efficient Machine Learning models for Data Interpretation and Data Insights."
@@ -127,6 +127,19 @@ display: true // Set false to hide this section, defaults to true
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
+    {
+      schoolName: "Arizona State University",
+      logo: require("./assets/images/asu.png"),
+      subHeader: "Masters of Computer Science",
+      duration: "2022 - 2024",
+      desc:  "Key Courses and Acitivities:",
+
+      descBullets: [
+        "CSE 543: Info Assurance & Security",
+        "CSE 575: Statistical Machine Learning",
+        "CSE 594: Topic: Spatial Data Science and Engineering",
+      ]
+    },
     {
       schoolName: "Pune Institute of Technology",
       logo: require("./assets/images/PICTLogo.jpeg"),
@@ -245,17 +258,17 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/dbms.jpg"),
-      projectName: "Student Database Managment System for Training and Placement Office",
-      projectDesc: "A SDMS for helping Training and Placement office in my college to help automate the tidious manual efforts and to save student's andd teacher's time making overall Process more effiecent.",
+      projectName: "Placements Made Easy!",
+      projectDesc: "An end to end solution for College Placements activitis to schdule, help, better manage the entire process with almost zero manual intervention.",
       footerLink: [
         {
           name: "Visit Website",
           // Need to update this once website is up and running
-          url: "https://github.com/ameygoes/relationalDBManagementSystem"
+          url: "https://github.com/ameygoes/PlacementsMadeEasy"
         },
         {
           name: "See Code",
-          url: "https://github.com/ameygoes/relationalDBManagementSystem"
+          url: "https://github.com/ameygoes/PlacementsMadeEasy"
         }
         //  you can add extra buttons here.
       ]
@@ -457,7 +470,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Are you looking for a Full Stack or Data Engineer for your Organization? Shoot an Email here:",
   // number: "+91-3243454077",
   email_address: "bhilegaonkar11@gmail.com"
 };
@@ -465,7 +478,7 @@ const contactInfo = {
 // Twitter Section
 const twitterDetails = {
   userName: "ameygoes", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
