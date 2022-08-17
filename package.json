@@ -20,7 +20,7 @@
     "set": "^1.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build --legacy-peer-deps",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -b master -d build",
