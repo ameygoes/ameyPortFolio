@@ -206,6 +206,37 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+
+    {
+      role: "Data Analyst",
+      company: "Publicis Sapient",
+      companylogo: require("./assets/images/SapientLogo.jpeg"),
+      date: "Jan 2021 - July 2022",
+      desc: "Was part of the Data Analytics Team, Supported and Enhanced the Live Project for the Client which included technologies and platforms such as Python, Dataflow, GCP, Shell Scripts, Airflow. Responsible for - ",
+      descBullets: [
+        "Single-handedly, initiated and built an Automated Data Validation Module from scratch to verify inflow, intermediate flow and out-flow of the data.",
+        "Built an Automated Translation module using google translate API to translate multiple configurable YAML files, reducing manual efforts to 0%",
+        "Built Airflow data ingestion pipelines to download over 25+ files of terabytes of data from Azure bucket, decompress the files and ingest the data in Google Cloud Platform’s BigQuery.",
+        "Enhanced Email Notification, File Download and Data Science modules resulting increased efficiency of about 25%.",
+        "Added Authentication system to help manager user signin, login and signups",
+        "Added Autonomous scalable DBT docs utlity to have all the documentation related to database design and schema in user defined language",
+        "Capabilities: Python, DBT, Apache Airflow, Kubernetes, AWS, Azure, GCP tools- BigQuery, DataFlow, Cloud Storage; AI platform, Data Validation, Data Cleaning",
+      ]
+    },
+
+    {
+      role: "Data Engineer",
+      company: "Publicis Sapient",
+      companylogo: require("./assets/images/SapientLogo.jpeg"),
+      date: "Nov 2020 - Present",
+      desc: "Responsible for -",
+      descBullets: [
+        "Created Data Pipelines from various resources of Data from Datawarehouse to process and efficiently store the data into backend.",
+        "Re-designed the sink data service in configurable way to output the data in different formats for different destinations.",
+        "Provided support for Production tickets and adhoc tickets",
+      ]
+    },
+
     {
       role: "Associate DevOps Engineer",
       company: "Publicis Sapient",
@@ -213,25 +244,12 @@ const workExperiences = {
       date: "Nov 2020 - Present",
       desc: "Responsible for -",
       descBullets: [
-        "Modifying and Changing currently developer-centric deployment into CICD.",
-        "Creating Jenkins jobs for Automating CICD",
-        "Automatic Resource provisioning using Terrafrom in AWS.",
-        "Wrting Python Scripts for funtional testing of the freameworks."
+        "Completely re-designed the existing developer centeric deployment into automated CICD using Jenkins for Containerized, Batch and Real Time deployments, increasing efficiency by 45%.",
+        "Developed Automatic Resource provisioning using Terrafrom in AWS",
+        "Automated testing module using Python scripts.",
       ]
     },
-    {
-      role: "Associate Data Analyst",
-      company: "Publicis Sapient",
-      companylogo: require("./assets/images/SapientLogo.jpeg"),
-      date: "Jan 2020 - Oct 2020",
-      desc: "Was part of the Data Analytics Team, Supported and Enhanced the Live Project for the Client which included technologies and platforms such as Python, Dataflow, GCP, Shell Scripts, Airflow. Responsible for - ",
-      descBullets: [
-        "Built a Data Validation Module from scratch to Verify inflow, intermediate flow and out-flow of data.",
-        "Enhanced Email Notification Module to send out Mails more efficiently.",
-        "Enhanced Data Science Code for Data Preprocessing Module.",
-        "Enhanced and generalized File Download Module - which Downloads files more efficiently."
-      ]
-    },
+
     {
       role: "Associate Software Development Engineer",
       company: "Publicis Sapient",
@@ -239,9 +257,10 @@ const workExperiences = {
       date: "Jun 2019 – Dec 2019",
       desc: "Worked in a 5-member team on round-robin for technologies like Java - microservice-based architecture, Node, Restful APIs, Security Tokens, MySQL, DevOps to get to know all technologies Responsible for - ",
       descBullets: [
-        "Designing Login Page and routing APIs to various other services.",
+        "Built the UI for Login service",
+        "Exposed and Routed APIs to various other services.",
         "Encryption and Decryption of PII data and passwords.",
-        "Password regex checking and conditioning at the UI level.",
+        "Created a input data validation service, End User device information and notification service.",
         "Git version controlling and Building Jenkins job to deploy the code."
       ]
     }
@@ -254,7 +273,7 @@ const workExperiences = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME OF THE REALLY COOL PROJECTS THAT I HAVE WORKED ON.",
+  subtitle: "SOME OF PROJECTS THAT I HAVE WORKED ON.",
   projects: [
     {
       image: require("./assets/images/dbms.jpg"),
