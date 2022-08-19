@@ -212,15 +212,16 @@ const workExperiences = {
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
       date: "Jan 2021 - July 2022",
-      desc: "Was part of the Data Analytics Team, Supported and Enhanced the Live Project for the Client which included technologies and platforms such as Python, Dataflow, GCP, Shell Scripts, Airflow. Responsible for - ",
+      desc: "Responsibilities:",
       descBullets: [
-        "Single-handedly, initiated and built an Automated Data Validation Module from scratch to verify inflow, intermediate flow and out-flow of the data.",
+        "Single-handedly, initiated and built an Automated Data Validation Module from scratch to verify inflow, intermediate flow, and out-flow of the data.",
         "Built an Automated Translation module using google translate API to translate multiple configurable YAML files, reducing manual efforts to 0%",
         "Built Airflow data ingestion pipelines to download over 25+ files of terabytes of data from Azure bucket, decompress the files and ingest the data in Google Cloud Platform’s BigQuery.",
-        "Enhanced Email Notification, File Download and Data Science modules resulting increased efficiency of about 25%.",
-        "Added Authentication system to help manager user signin, login and signups",
-        "Added Autonomous scalable DBT docs utlity to have all the documentation related to database design and schema in user defined language",
+        "Enhanced Email Notification, File Download, and Data Science modules resulting in increased efficiency of about 25%.",
+        "Added Autonomous scalable DBT docs utility to have all the documentation related to database design and schema in user-defined language",
+        "Added Authentication system to help manage user sign in, log in and signups",
         "Capabilities: Python, DBT, Apache Airflow, Kubernetes, AWS, Azure, GCP tools- BigQuery, DataFlow, Cloud Storage; AI platform, Data Validation, Data Cleaning",
+
       ]
     },
 
@@ -229,38 +230,38 @@ const workExperiences = {
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
       date: "Nov 2020 - Present",
-      desc: "Responsible for -",
+      desc: "Responsibilities:",
       descBullets: [
-        "Created Data Pipelines from various resources of Data from Datawarehouse to process and efficiently store the data into backend.",
-        "Re-designed the sink data service in configurable way to output the data in different formats for different destinations.",
-        "Provided support for Production tickets and adhoc tickets",
+        "Created Data Pipelines from various resources of Data from Datawarehouse to process and efficiently store the data into the backend.",
+        "Re-designed the sink data service in a configurable way to output the data in different formats for different destinations.",
+        "Provided support for Production tickets and Adhoc tickets",
       ]
     },
 
     {
-      role: "Associate DevOps Engineer",
+      role: "DevOps Engineer",
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
       date: "Nov 2020 - Present",
-      desc: "Responsible for -",
+      desc: "Responsibilities:",
       descBullets: [
-        "Completely re-designed the existing developer centeric deployment into automated CICD using Jenkins for Containerized, Batch and Real Time deployments, increasing efficiency by 45%.",
-        "Developed Automatic Resource provisioning using Terrafrom in AWS",
+        "Completely re-designed the existing developer centric deployment into automated CICD using Jenkins for Containerized, Batch and Real-Time deployments, increasing efficiency by 45%.",
+        "Developed Automatic Resource provisioning using Terraform in AWS",
         "Automated testing module using Python scripts.",
       ]
     },
 
     {
-      role: "Associate Software Development Engineer",
+      role: "Software Development Engineer",
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
       date: "Jun 2019 – Dec 2019",
-      desc: "Worked in a 5-member team on round-robin for technologies like Java - microservice-based architecture, Node, Restful APIs, Security Tokens, MySQL, DevOps to get to know all technologies Responsible for - ",
+      desc: "Responsibilities:",
       descBullets: [
         "Built the UI for Login service",
         "Exposed and Routed APIs to various other services.",
         "Encryption and Decryption of PII data and passwords.",
-        "Created a input data validation service, End User device information and notification service.",
+        "Created an input data validation service, End User device information, and notification service.",
         "Git version controlling and Building Jenkins job to deploy the code."
       ]
     }
@@ -272,8 +273,8 @@ const workExperiences = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
-  subtitle: "SOME OF PROJECTS THAT I HAVE WORKED ON.",
+  title: "Personal Projects",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/dbms.jpg"),
@@ -489,7 +490,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Are you looking for a Full Stack or Data Engineer for your Organization? Shoot an Email here:",
+    "Are you looking for a Full Stack or Data Scientist, Data Analyst or Data Engineer for your Organization? Shoot an Email here:",
   // number: "+91-3243454077",
   email_address: "bhilegaonkar11@gmail.com"
 };
