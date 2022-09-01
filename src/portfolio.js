@@ -14,7 +14,7 @@ const greeting = {
   username: "Amey Bhilegaonkar",
   title: "Hey, I'm Amey!",
   subTitle: emoji(
-    "Currently, pursuing my Masters of Computer Science with speciliaztion as Data Science at Arizona State University. I am a Full Stack developer, with professional experience of 3+ years as a Data Engineer and a Data Analyst👨‍💻. I take great care in the Experience, Architecture, and Code Quality of the things I build."
+    "Currently, pursuing my Masters of Computer Science with speciliaztion as Data Science at Arizona State University. I am a self taught Full Stack developer, with professional experience of 3+ years as a Data Engineer and a Data Analyst👨‍💻. I take great care in the User experience, Architecture, and Code Quality of the things I build."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1QmlL9FBtcHb8O7TpuPsaUfgUl1GQ0GMf/view?usp=sharing", // Set to empty to hide the button
@@ -42,11 +42,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH",
+  subTitle: "I love to explore different technologies and play around them. These are some of the technologies I have been exploring",
   skills: [
-    emoji(
-      "⚡ Develop highly efficient Machine Learning models for Data Interpretation and Data Insights."
-    ),
+    // emoji(
+    //   "⚡ Develop highly efficient Machine Learning models for Data Interpretation and Data Insights."
+    // ),
     emoji(
       "⚡ Develop Highly Secure and Highly Scalable Software Development"
     ),
@@ -225,24 +225,13 @@ const workExperiences = {
       ]
     },
 
-    {
-      role: "Data Engineer",
-      company: "Publicis Sapient",
-      companylogo: require("./assets/images/SapientLogo.jpeg"),
-      date: "Nov 2020 - Present",
-      desc: "Responsibilities:",
-      descBullets: [
-        "Created Data Pipelines from various resources of Data from Datawarehouse to process and efficiently store the data into the backend.",
-        "Re-designed the sink data service in a configurable way to output the data in different formats for different destinations.",
-        "Provided support for Production tickets and Adhoc tickets",
-      ]
-    },
+
 
     {
       role: "DevOps Engineer",
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
-      date: "Nov 2020 - Present",
+      date: "Sept 2020 - Jan 2021",
       desc: "Responsibilities:",
       descBullets: [
         "Completely re-designed the existing developer centric deployment into automated CICD using Jenkins for Containerized, Batch and Real-Time deployments, increasing efficiency by 45%.",
@@ -252,10 +241,23 @@ const workExperiences = {
     },
 
     {
+      role: "Data Engineer",
+      company: "Publicis Sapient",
+      companylogo: require("./assets/images/SapientLogo.jpeg"),
+      date: "Sept 2019 - Sept-2020",
+      desc: "Responsibilities:",
+      descBullets: [
+        "Created Data Pipelines from various resources of Data from Datawarehouse to process and efficiently store the data into the backend.",
+        "Re-designed the sink data service in a configurable way to output the data in different formats for different destinations.",
+        "Provided support for Production tickets and Adhoc tickets",
+      ]
+    },
+
+    {
       role: "Software Development Engineer",
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
-      date: "Jun 2019 – Dec 2019",
+      date: "Jun 2019 – Sept 2019",
       desc: "Responsibilities:",
       descBullets: [
         "Built the UI for Login service",
