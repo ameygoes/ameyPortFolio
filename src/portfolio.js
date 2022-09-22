@@ -17,7 +17,7 @@ const greeting = {
     "Currently, pursuing my Masters of Computer Science with speciliaztion as Data Science at Arizona State University. I am a self taught Full Stack developer, with professional experience of 3+ years as a Data Engineer and a Data Analyst👨‍💻. I take great care in the User experience, Architecture, and Code Quality of the things I build."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1QmlL9FBtcHb8O7TpuPsaUfgUl1GQ0GMf/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/17Ny19nqBMHJe-4iN4hIP5ySPlyK1TY3M/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
