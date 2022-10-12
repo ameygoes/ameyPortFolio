@@ -62,29 +62,29 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
 softwareSkills: [
-  {
-    skillName: "html-5",
-    fontAwesomeClassname: "fab fa-html5"
-  },
-  {
-    skillName: "css3",
-    fontAwesomeClassname: "fab fa-css3-alt"
-  },
-  {
-    skillName: "sass",
-    fontAwesomeClassname: "fab fa-sass"
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
+  // {
+  //   skillName: "html-5",
+  //   fontAwesomeClassname: "fab fa-html5"
+  // },
+  // {
+  //   skillName: "css3",
+  //   fontAwesomeClassname: "fab fa-css3-alt"
+  // },
+  // {
+  //   skillName: "sass",
+  //   fontAwesomeClassname: "fab fa-sass"
+  // },
+  // {
+  //   skillName: "JavaScript",
+  //   fontAwesomeClassname: "fab fa-js"
+  // },
   {
     skillName: "reactjs",
     fontAwesomeClassname: "fab fa-react"
   },
   {
-    skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node"
+    skillName: "gitlab",
+    fontAwesomeClassname: "fab fa-gitlab"
   },
   {
     skillName: "git",
@@ -506,7 +506,7 @@ const contactInfo = {
   subtitle:
     "Are you looking for a Full Stack or Data Scientist, Data Analyst or Data Engineer for your Organization? Shoot an Email here:",
   // number: "+91-3243454077",
-  email_address: "bhilegaonkar11@gmail.com"
+  email_address: "amey.bhilegaonkar@asu.edu"
 };
 
 // Twitter Section
