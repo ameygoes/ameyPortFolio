@@ -42,19 +42,19 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I love to explore different technologies and play around them. These are some of the technologies I have been exploring",
+  subTitle: "I love to explore different technologies and solve complex problems. These are some of the technologies I have been exploring",
   skills: [
     // emoji(
     //   "⚡ Develop highly efficient Machine Learning models for Data Interpretation and Data Insights."
     // ),
     emoji(
-      "⚡ Develop Highly Secure and Highly Scalable Software Development"
+      "⚡ Develop Highly Secure and Scalable Software Development"
     ),
     emoji(
-      "⚡ Integrate of third party services such as AWS, GCP"
+      "⚡ Collaborate and Cross function across teams to develop High performance Data Pipelines and Data Analysis."
     ),
     emoji(
-      "⚡ Automate Data and Machine Learning, Deployment pipelines"
+      "⚡ Automate Data, Machine Learning, and Deployment pipelines using Jenkins and DevOps"
     )
   ],
 
@@ -214,13 +214,17 @@ const workExperiences = {
       date: "Jan 2021 - July 2022",
       desc: "Responsibilities:",
       descBullets: [
+        "Built an Automated Data Validation Module to verify Data flow, boosting efficiency by 30%",
+        "Built an Automated Translation module using google translate API to translate business Data Dashboard into different languages, reducing manual efforts to 10%",
+        "Constructed Data Ingestion pipelines to ETL the TBs of the file data to GCP’s BigQuery.",
+        "Enhanced various modules by developing new a modularized code structure resulting in increased efficiency by 25%.",
+        "Coordinated with Data scientists for data cleaning and variables selection.",
         "Single-handedly, initiated and built an Automated Data Validation Module from scratch to verify inflow, intermediate flow, and out-flow of the data.",
-        "Built an Automated Translation module using google translate API to translate multiple configurable YAML files, reducing manual efforts to 0%",
         "Built Airflow data ingestion pipelines to download over 25+ files of terabytes of data from Azure bucket, decompress the files and ingest the data in Google Cloud Platform’s BigQuery.",
         "Enhanced Email Notification, File Download, and Data Science modules resulting in increased efficiency of about 25%.",
         "Added Autonomous scalable DBT docs utility to have all the documentation related to database design and schema in user-defined language",
         "Added Authentication system to help manage user sign in, log in and signups",
-        "Capabilities: Python, DBT, Apache Airflow, Kubernetes, AWS, Azure, GCP tools- BigQuery, DataFlow, Cloud Storage; AI platform, Data Validation, Data Cleaning",
+        "Capabilities: Python, DBT, Airflow, Kubernetes, GCP, BigQuery, DataFlow, Cloud Storage, AI platform, Data Collection, Data Validation, Data Cleaning, Data Integration",
 
       ]
     },
@@ -228,7 +232,7 @@ const workExperiences = {
 
 
     {
-      role: "DevOps Engineer",
+      role: "DevOps / Site Reliability Engineer",
       company: "Publicis Sapient",
       companylogo: require("./assets/images/SapientLogo.jpeg"),
       date: "Sept 2020 - Jan 2021",
@@ -237,6 +241,9 @@ const workExperiences = {
         "Completely re-designed the existing developer centric deployment into automated CICD using Jenkins for Containerized, Batch and Real-Time deployments, increasing efficiency by 45%.",
         "Developed Automatic Resource provisioning using Terraform in AWS",
         "Automated testing module using Python scripts.",
+        "Re-designed and automated large scale, high-performance, scalable data pipelines using Jenkins for Containerized, Batch, and Real-Time deployments,\textbf{ increasing efficiency by around 45%.",
+        "Automated Resource Provisioning using Terraform and Automated testing which saved manual efforts of about 40h/month saving costs of about $60K/month to the company",
+        "Built and scheduled automated script for data quality checking and updating the existing records in the distributed database system on a scheduled basis."
       ]
     },
 
@@ -247,9 +254,14 @@ const workExperiences = {
       date: "Sept 2019 - Sept-2020",
       desc: "Responsibilities:",
       descBullets: [
+        "Built and Automated large-scale, high-performance, scalable databases capable of ETL processes using Cassandra and Spark which reduced manual efforts by 60%",
+        "Translated business propositions into quantitative queries and collected and cleaned the necessary data.",
+        "Maintained data pipeline up-time of 99.4% while ingesting streaming and transnational data across 8 different data sources Spark, S3, SQS, Java, Python.",
+        "Automated Resource Provisioning and testing which saved manual efforts of about 40h/month saving costs of about $60K/month to the company",
         "Created Data Pipelines from various resources of Data from Datawarehouse to process and efficiently store the data into the backend.",
         "Re-designed the sink data service in a configurable way to output the data in different formats for different destinations.",
         "Provided support for Production tickets and Adhoc tickets",
+        "Capabilities: Java, EC2, ECR, ECS, S3, SNS, VPC, DynamoDB, Scala, Cassandra, DevOps, Terraform, Apache Spark, Data Cleaning, Data Modeling, Data Visualization, Distributed Systems"
       ]
     },
 
