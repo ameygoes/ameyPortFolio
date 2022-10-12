@@ -79,6 +79,31 @@ softwareSkills: [
   //   fontAwesomeClassname: "fab fa-js"
   // },
   {
+    skillName: "python",
+    fontAwesomeClassname: "fab fa-python"
+  },
+
+  {
+    skillName: "java",
+    fontAwesomeClassname: "fab fa-java"
+  },
+  {
+    skillName: "Databases",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "aws",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "docker",
+    fontAwesomeClassname: "fab fa-docker"
+  },
+  {
+    skillName: "linux",
+    fontAwesomeClassname: "fab fa-linux"
+  },
+  {
     skillName: "reactjs",
     fontAwesomeClassname: "fab fa-react"
   },
@@ -93,30 +118,6 @@ softwareSkills: [
   {
     skillName: "jenkins",
     fontAwesomeClassname: "fab fa-jenkins"
-  },
-  {
-    skillName: "Databases",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "aws",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "python",
-    fontAwesomeClassname: "fab fa-python"
-  },
-  {
-    skillName: "docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "linux",
-    fontAwesomeClassname: "fab fa-linux"
-  },
-  {
-    skillName: "java",
-    fontAwesomeClassname: "fab fa-java"
   }
 ],
 display: true // Set false to hide this section, defaults to true
@@ -219,10 +220,7 @@ const workExperiences = {
         "Constructed Data Ingestion pipelines to ETL the TBs of the file data to GCP’s BigQuery.",
         "Enhanced various modules by developing new a modularized code structure resulting in increased efficiency by 25%.",
         "Coordinated with Data scientists for data cleaning and variables selection.",
-        "Single-handedly, initiated and built an Automated Data Validation Module from scratch to verify inflow, intermediate flow, and out-flow of the data.",
         "Built Airflow data ingestion pipelines to download over 25+ files of terabytes of data from Azure bucket, decompress the files and ingest the data in Google Cloud Platform’s BigQuery.",
-        "Enhanced Email Notification, File Download, and Data Science modules resulting in increased efficiency of about 25%.",
-        "Added Autonomous scalable DBT docs utility to have all the documentation related to database design and schema in user-defined language",
         "Added Authentication system to help manage user sign in, log in and signups",
         "Capabilities: Python, DBT, Airflow, Kubernetes, GCP, BigQuery, DataFlow, Cloud Storage, AI platform, Data Collection, Data Validation, Data Cleaning, Data Integration",
 
@@ -258,9 +256,7 @@ const workExperiences = {
         "Translated business propositions into quantitative queries and collected and cleaned the necessary data.",
         "Maintained data pipeline up-time of 99.4% while ingesting streaming and transnational data across 8 different data sources Spark, S3, SQS, Java, Python.",
         "Automated Resource Provisioning and testing which saved manual efforts of about 40h/month saving costs of about $60K/month to the company",
-        "Created Data Pipelines from various resources of Data from Datawarehouse to process and efficiently store the data into the backend.",
-        "Re-designed the sink data service in a configurable way to output the data in different formats for different destinations.",
-        "Provided support for Production tickets and Adhoc tickets",
+        "Designed the sink data service in a configurable way to output the data in different formats for different destinations.",
         "Capabilities: Java, EC2, ECR, ECS, S3, SNS, VPC, DynamoDB, Scala, Cassandra, DevOps, Terraform, Apache Spark, Data Cleaning, Data Modeling, Data Visualization, Distributed Systems"
       ]
     },
