@@ -326,17 +326,33 @@ const bigProjects = {
     },
 
     {
-      image: require("./assets/images/pythondjango.jpg"),
-      projectName: "Python Django App",
-      projectDesc: "Made Python Django App out of curiousity. Made a website to send data over APIs using Django Framewrok",
+      image: require("./assets/images/pythondjango.png"),
+      projectName: "LeetCode Python Solutions",
+      projectDesc: " This Repository will have all the answers to the LeetCode questions as well as some Dynamic Programming Questions.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://github.com/ameygoes/Python-E2E-Django-App"
+          url: "https://github.com/ameygoes/LeetCode_Python"
         },
         {
           name: "See Code",
-          url: "https://github.com/ameygoes/Python-E2E-Django-App"
+          url: "https://github.com/ameygoes/LeetCode_Python"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/JavaLeetcode.png"),
+      projectName: "LeetCode Java Solutions",
+      projectDesc: " This Repository will have all the answers to the LeetCode questions as well as some Dynamic Programming Questions.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/ameygoes/LeetCode_Java"
+        },
+        {
+          name: "See Code",
+          url: "https://github.com/ameygoes/LeetCode_Java"
         }
       ]
     }
