@@ -48,7 +48,7 @@ const skillsSection = {
     //   "⚡ Develop highly efficient Machine Learning models for Data Interpretation and Data Insights."
     // ),
     emoji(
-      "⚡ Develop Highly Secure and Scalable Software Development"
+      "⚡ Develop Highly Secure and Scalable Softwares"
     ),
     emoji(
       "⚡ Collaborate and Cross function across teams to develop High performance Data Pipelines and Data Analysis."
