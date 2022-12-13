@@ -14,7 +14,7 @@ const greeting = {
   username: "Amey Bhilegaonkar",
   title: "Hey, I'm Amey!",
   subTitle: emoji(
-    "Currently, pursuing my Masters of Computer Science with speciliaztion as Data Science at Arizona State University. I am a self taught Full Stack developer, with professional experience of 3+ years as a Data Engineer and a Data Analyst👨‍💻. I take great care in the User experience, Architecture, and Code Quality of the things I build."
+    "At Arizona State University, I'm presently earning a master's degree in computer science with a focus on data science. I am a Full Stack Developer with more than three years of experience working as a SDE and Data Engineer. When I build something, I pay close attention to the User Experience, Architecture, and Code Quality. I am excellent at managing a large amount of Data and transferring it from one point to another. I am skilled at analyzing data visually and drawing insights from it."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1I8xbzUI1pvGdhfyerlwsIJgAxDNmgZiB/view?usp=sharing", // Set to empty to hide the button
@@ -133,12 +133,15 @@ const educationInfo = {
       logo: require("./assets/images/asu.png"),
       subHeader: "Masters of Computer Science",
       duration: "2022 - 2024",
-      desc:  "Key Courses and Acitivities:",
+      desc:  "GPA: 3.89 Course:",
 
       descBullets: [
         "CSE 543: Info Assurance & Security",
         "CSE 575: Statistical Machine Learning",
         "CSE 594: Topic: Spatial Data Science and Engineering",
+        "CSE 511: Data Processing at Scale",
+        "CSE 551: Foundations of Algorithms",
+        "CSE 579: Knowledge Representation",
       ]
     },
     {
@@ -146,7 +149,7 @@ const educationInfo = {
       logo: require("./assets/images/PICTLogo.jpeg"),
       subHeader: "Bachelor of Engineering, Electronics and TeleCommunications Engineering",
       duration: "2015 - 2019",
-      desc:  "Key Courses and Acitivities I had done:",
+      desc:  "GPA: 8.78 Courses:",
 
       descBullets: [
       "Fundamentals of Programming Langauge",
@@ -187,12 +190,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend Programing", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      Stack: "Backend & Microservices", //Insert stack or technology you have experience in
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Data Science",
-      progressPercentage: "70%"
+      Stack: "Data Engineering",
+      progressPercentage: "80%"
     },
     {
       Stack: "Cloud/DevOps",
@@ -208,73 +211,67 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
 
-    {
-      role: "Data Analyst",
-      company: "Publicis Sapient",
-      companylogo: require("./assets/images/SapientLogo.jpeg"),
-      date: "Jan 2021 - July 2022",
-      desc: "Responsibilities:",
-      descBullets: [
-        "Built an Automated Data Validation Module to verify Data flow, boosting efficiency by 30%",
-        "Built an Automated Translation module using google translate API to translate business Data Dashboard into different languages, reducing manual efforts to 10%",
-        "Constructed Data Ingestion pipelines to ETL the TBs of the file data to GCP’s BigQuery.",
-        "Enhanced various modules by developing new a modularized code structure resulting in increased efficiency by 25%.",
-        "Coordinated with Data scientists for data cleaning and variables selection.",
-        "Built Airflow data ingestion pipelines to download over 25+ files of terabytes of data from Azure bucket, decompress the files and ingest the data in Google Cloud Platform’s BigQuery.",
-        "Added Authentication system to help manage user sign in, log in and signups",
-        "Capabilities: Python, DBT, Airflow, Kubernetes, GCP, BigQuery, DataFlow, Cloud Storage, AI platform, Data Collection, Data Validation, Data Cleaning, Data Integration",
 
-      ]
-    },
+        {
+          role: "Data Engineer",
+          company: "Publicis Sapient",
+          companylogo: require("./assets/images/SapientLogo.jpeg"),
 
+          date: "Jan 2021 - July-2022",
+          desc: "Responsibilities:",
+          descBullets: [
+            "Built and Automated large-scale, high-performance, scalable data pipelines, capable of ETL processes using Cassandra and Spark which reduced manual efforts by 60%",
+            "Involved in performance tuning of spark applications for fixing right batch interval time and memory tuning.",
+            "Imported data from AWS S3 into spark RDD and performed transformations and actions on RDDs. Resolved multiple Spark issues.",
+            "Translated business propositions into quantitative queries and collected and cleaned the necessary data.",
+            "Used Spark-SQL to load JSON, CSV data and created schema RDD and loaded it into Cassandra Database",
+            "Maintained data pipeline up-time of 99.4% while ingesting streaming and transnational data across 8 different data sources Spark, S3, SQS, Java, Python.",
+            "Automated Resource Provisioning and testing which saved manual efforts of about 40h/month saving costs of about $60K/month to the company",
+            "Designed the sink data service in a configurable way to output the data in different formats for different destinations.",
+            "Capabilities: Java, EC2, ECR, ECS, S3, SNS, VPC, DynamoDB, Scala, Cassandra, DevOps, Terraform, Apache Spark, Data Cleaning, Data Modeling, Data Visualization, Distributed Systems",
+            "Completely re-designed the existing developer centric deployment into automated CICD using Jenkins for Containerized, Batch and Real-Time deployments, increasing efficiency by 45%.",
+            "Developed Automatic Resource provisioning using Terraform in AWS",
+            "Automated testing module using Python scripts.",
+            "Re-designed and automated large scale, high-performance, scalable data pipelines using Jenkins for Containerized, Batch, and Real-Time deployments,\textbf{ increasing efficiency by around 45%.",
+            "Automated Resource Provisioning using Terraform and Automated testing which saved manual efforts of about 40h/month saving costs of about $60K/month to the company",
+            "Built and scheduled automated script for data quality checking and updating the existing records in the distributed database system on a scheduled basis."
+          ]
+        },
 
+        {
 
-    {
-      role: "DevOps / Site Reliability Engineer",
-      company: "Publicis Sapient",
-      companylogo: require("./assets/images/SapientLogo.jpeg"),
-      date: "Sept 2020 - Jan 2021",
-      desc: "Responsibilities:",
-      descBullets: [
-        "Completely re-designed the existing developer centric deployment into automated CICD using Jenkins for Containerized, Batch and Real-Time deployments, increasing efficiency by 45%.",
-        "Developed Automatic Resource provisioning using Terraform in AWS",
-        "Automated testing module using Python scripts.",
-        "Re-designed and automated large scale, high-performance, scalable data pipelines using Jenkins for Containerized, Batch, and Real-Time deployments,\textbf{ increasing efficiency by around 45%.",
-        "Automated Resource Provisioning using Terraform and Automated testing which saved manual efforts of about 40h/month saving costs of about $60K/month to the company",
-        "Built and scheduled automated script for data quality checking and updating the existing records in the distributed database system on a scheduled basis."
-      ]
-    },
+          role: "Data Analyst",
+          company: "Publicis Sapient",
+          companylogo: require("./assets/images/SapientLogo.jpeg"),
+          date: "August 2019 - Dec 2020",
+          desc: "Responsibilities:",
+          descBullets: [
+            "Built an Automated Data Validation Module to verify Data flow, boosting efficiency by 30%",
+            "Built an Automated Translation module using google translate API to translate business Data Dashboard into different languages, reducing manual efforts to 10%",
+            "Constructed Data Ingestion pipelines to ETL the TBs of the file data to GCP’s BigQuery.",
+            "Enhanced various modules by developing new a modularized code structure resulting in increased efficiency by 25%.",
+            "Coordinated with Data scientists for data cleaning and variables selection.",
+            "Built Airflow data ingestion pipelines to download over 25+ files of terabytes of data from Azure bucket, decompress the files and ingest the data in Google Cloud Platform’s BigQuery.",
+            "Added Authentication system to help manage user sign in, log in and signups",
+            "Capabilities: Python, DBT, Airflow, Kubernetes, GCP, BigQuery, DataFlow, Cloud Storage, AI platform, Data Collection, Data Validation, Data Cleaning, Data Integration",
 
-    {
-      role: "Data Engineer",
-      company: "Publicis Sapient",
-      companylogo: require("./assets/images/SapientLogo.jpeg"),
-      date: "Sept 2019 - Sept-2020",
-      desc: "Responsibilities:",
-      descBullets: [
-        "Built and Automated large-scale, high-performance, scalable databases capable of ETL processes using Cassandra and Spark which reduced manual efforts by 60%",
-        "Translated business propositions into quantitative queries and collected and cleaned the necessary data.",
-        "Maintained data pipeline up-time of 99.4% while ingesting streaming and transnational data across 8 different data sources Spark, S3, SQS, Java, Python.",
-        "Automated Resource Provisioning and testing which saved manual efforts of about 40h/month saving costs of about $60K/month to the company",
-        "Designed the sink data service in a configurable way to output the data in different formats for different destinations.",
-        "Capabilities: Java, EC2, ECR, ECS, S3, SNS, VPC, DynamoDB, Scala, Cassandra, DevOps, Terraform, Apache Spark, Data Cleaning, Data Modeling, Data Visualization, Distributed Systems"
-      ]
-    },
+          ]
+        },
 
-    {
-      role: "Software Development Engineer",
-      company: "Publicis Sapient",
-      companylogo: require("./assets/images/SapientLogo.jpeg"),
-      date: "Jun 2019 – Sept 2019",
-      desc: "Responsibilities:",
-      descBullets: [
-        "Built the UI for Login service",
-        "Exposed and Routed APIs to various other services.",
-        "Encryption and Decryption of PII data and passwords.",
-        "Created an input data validation service, End User device information, and notification service.",
-        "Git version controlling and Building Jenkins job to deploy the code."
-      ]
-    }
+        {
+          role: "Software Development Engineer",
+          company: "Publicis Sapient",
+          companylogo: require("./assets/images/SapientLogo.jpeg"),
+          date: "Jun 2019 – August 2019",
+          desc: "Responsibilities:",
+          descBullets: [
+            "Built the UI for Login service",
+            "Exposed and Routed APIs to various other services.",
+            "Encryption and Decryption of PII data and passwords.",
+            "Created an input data validation service, End User device information, and notification service.",
+            "Git version controlling and Building Jenkins job to deploy the code."
+          ]
+        }
   ]
 };
 
@@ -286,19 +283,56 @@ const bigProjects = {
   title: "Personal Projects",
   subtitle: "",
   projects: [
+
     {
-      image: require("./assets/images/dbms.jpg"),
-      projectName: "Placements Made Easy!",
-      projectDesc: "An end to end solution for College Placements activitis to schdule, help, better manage the entire process with almost zero manual intervention.",
+      image: require("./assets/images/caption.png"),
+      projectName: "Image Captioning using CNN and LSTM",
+      projectDesc: "Developed Image and Natural Language Processing Machine Learning model, to describe the objects from Image. Created a module for success verification that uses indicators like BLEU, CIDEr, SPICE, to assess the success rate.",
       footerLink: [
         {
           name: "Visit Website",
           // Need to update this once website is up and running
-          url: "https://github.com/ameygoes/PlacementsMadeEasy"
+          url: "https://github.com/ameygoes/ASU_MCS/tree/master/FALL_22_CLASSES_SEM_1/CSE_575_STATISTICAL_MACHINE_LEARNING/PROJECTS"
         },
         {
           name: "See Code",
-          url: "https://github.com/ameygoes/PlacementsMadeEasy"
+          url: "https://github.com/ameygoes/ASU_MCS/blob/master/FALL_22_CLASSES_SEM_1/CSE_575_STATISTICAL_MACHINE_LEARNING/PROJECTS/PROJECT-CODE/ResNet50_Model_SML_Project_Group_4.ipynb"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+
+    {
+      image: require("./assets/images/spark.jpg"),
+      projectName: "Spark Projects with Java: Extraction, Transformation, Load",
+      projectDesc: "Developed 9 different small projects using Java and Spark to perform ETL on data and perform various actions.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          // Need to update this once website is up and running
+          url: "https://github.com/ameygoes/JavaSpark"
+        },
+        {
+          name: "See Code",
+          url: "https://github.com/ameygoes/JavaSpark/tree/master/projects"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+
+    {
+      image: require("./assets/images/micro.jpg"),
+      projectName: "Shopping Application: Java Microservices",
+      projectDesc: "Developed Shopping Microservices based webapp using Java, had multiple APIs communicating with each other. Used Kafka for streaming requests, deployed project to cloud.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          // Need to update this once website is up and running
+          url: "https://github.com/ameygoes/JavaMicroservice_ShoppingApplication"
+        },
+        {
+          name: "See Code",
+          url: "https://github.com/ameygoes/JavaMicroservice_ShoppingApplication/tree/master/product-service"
         }
         //  you can add extra buttons here.
       ]
@@ -321,6 +355,25 @@ const bigProjects = {
       ]
     },
 
+    {
+      image: require("./assets/images/dbms.jpg"),
+      projectName: "Placements Made Easy!",
+      projectDesc: "An end to end solution for College Placements activitis to schdule, help, better manage the entire process with almost zero manual intervention.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          // Need to update this once website is up and running
+          url: "https://github.com/ameygoes/PlacementsMadeEasy"
+        },
+        {
+          name: "See Code",
+          url: "https://github.com/ameygoes/PlacementsMadeEasy"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+
+  
     {
       image: require("./assets/images/pythondjango.png"),
       projectName: "LeetCode Python Solutions",
@@ -360,7 +413,7 @@ const bigProjects = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -516,8 +569,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Are you looking for a Full Stack or Data Scientist, Data Analyst or Data Engineer for your Organization? Shoot an Email here:",
-  // number: "+91-3243454077",
+    "Are you looking for a Data Engineer or Full Stack Developer for your Organization? Please contact on below Email:",
+  number: "+1-480-616-3980",
   email_address: "amey.bhilegaonkar@asu.edu"
 };
 
